@@ -16,8 +16,9 @@
 
 .menuWrapper {
     display: flex;
-    color: $textColor;
+    color: $textColorAlt;
     line-height: 2.6rem;
+    font-weight: 600;
     // gap: 12px;
 
     >* {
@@ -28,7 +29,7 @@
         transition: all .3s ease-in-out;
 
         &:hover {
-            background-color: aqua;
+            background-color: $primatyColorHover;
         }
     }
 }

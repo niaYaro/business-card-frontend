@@ -16,6 +16,8 @@ import individualSessionImg from '../../assets/images/individual_session.png';
 import groupSessionImg from '../../assets/images/group_session.png';
 import coupleTherapyImg from '../../assets/images/couple_therapy.png';
 import onlineTherapyImg from '../../assets/images/online_therapy.png';
+import Heading from '../../components/Heading/Heading';
+import UList from '../../components/UList/UList';
 
 
 
@@ -70,14 +72,17 @@ const Home: React.FC = () => {
                 </SwiperSlide>
             </Swiper>
             <div>
-                <h2>Чому обрати гештальт-терапію?</h2>
-                <ul>
+                <Heading type='h1'>Чому обрати гештальт-терапію?</Heading>
+                <Heading type='h2'>Чому обрати гештальт-терапію?</Heading>
+                <Heading type='h3'>Чому обрати гештальт-терапію?</Heading>
+                <Heading type='h4'>Чому обрати гештальт-терапію?</Heading>
+                <UList>
                     Гештальт-терапія фокусується на вашому "тут і зараз", що дозволяє усвідомити ваші емоції, думки та поведінку в реальному часі. Цей підхід допомагає вам усвідомити, як минулий досвід впливає на ваше теперішнє життя. Завдяки гештальт-терапії ви зможете:
                     <li>Зрозуміти свої потреби та бажання.</li>
                     <li>Підвищити рівень самосвідомості.</li>
                     <li>Поліпшити стосунки з оточуючими.</li>
                     <li>Знайти нові способи подолання стресу та тривоги.</li>
-                </ul>
+                </UList>
             </div>
         </>
     );
