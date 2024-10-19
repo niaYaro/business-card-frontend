@@ -1,0 +1,28 @@
+@import "../../styles/styles.scss";
+
+.footerWrapper {
+    background: $primatyColor;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: $commonPadding;
+}
+
+.logoWrapper {
+    img {
+        max-height: 100px;
+    }
+}
+
+.contacts {
+    display: flex;
+    gap: 24px;
+}
+
+.socials {
+    >* {
+        width: 50px;
+        height: 50px;
+    }
+}

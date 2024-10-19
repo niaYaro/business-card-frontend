@@ -1,0 +1,12 @@
+@import "../../styles/styles.scss";
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.mainClass {
+    // padding: $commonPadding;
+    flex: 1;
+}
