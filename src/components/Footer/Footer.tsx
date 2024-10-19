@@ -12,18 +12,22 @@ const Footer: React.FC = () => {
   return (
     <div className={style.footerWrapper}>
       <div className={style.logoWrapper}>
-        <Image src={logo}/>
+        <Image src={logo} />
       </div>
-      © 2024 Company name
-      <div className={style.contacts}>
-        <p>name@gmail.com</p>
-        <p>+38 093 111 11 11</p>
+      <div className={style.data}>
+        <div className={style.contacts}>
+          <p>name@gmail.com</p>
+          <p>+38 093 111 11 11</p>
+        </div>
+        <div className={style.socials}>
+          <WhatsApp />
+          <Instagram />
+          <Telegram />
+        </div>
       </div>
-      <div className={style.socials}>
-        <WhatsApp />
-        <Instagram />
-        <Telegram />
-      </div>
+      <p className={style.copyright}>
+        © 2024 Company name
+      </p>
     </div>
   );
 };

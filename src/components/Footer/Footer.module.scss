@@ -2,12 +2,19 @@
 
 .footerWrapper {
     background: $primatyColor;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    // flex-direction: column;
+    // align-items: center;
+    // justify-content: space-between;
     padding: $commonPadding;
     color: $textColorAlt;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 .logoWrapper {
@@ -17,13 +24,21 @@
 }
 
 .contacts {
-    display: flex;
+    // display: flex;
+    // flex-direction: column;
     gap: 24px;
 }
 
 .socials {
+    display: flex;
+    gap: 36px;
     >* {
         width: 50px;
         height: 50px;
     }
+}
+
+.copyright {
+    grid-column: span 2;
+    text-align: center;
 }
