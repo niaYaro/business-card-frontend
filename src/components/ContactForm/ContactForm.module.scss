@@ -1,0 +1,31 @@
+@import "../../styles/styles.scss";
+
+.contactUsSection {
+    padding: 24px;
+    position: relative;
+}
+.formWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    max-width: 400px;
+    margin: 0 auto;
+
+    .formButton {
+        min-width: 115px;
+    }
+}
+
+fieldset {
+    border-color: $primatyColorHover;
+
+}
+
+.alert {
+    position: absolute;
+    top: 0;
+    min-width: 400px;
+    left: 50%;
+    transform: translateX(-50%);
+}

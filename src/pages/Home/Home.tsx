@@ -19,6 +19,7 @@ import onlineTherapyImg from '../../assets/images/online_therapy.png';
 import Heading from '../../components/Heading/Heading';
 import UList from '../../components/UList/UList';
 import Dropdown from '../../components/Dropdown/Dropdown';
+import ContactForm from '../../components/ContactForm/ContactForm';
 
 
 
@@ -92,6 +93,8 @@ const Home: React.FC = () => {
             <Dropdown details={'Так, всі сесії є конфіденційними. Я дотримуюсь етичних стандартів, які гарантують захист вашої приватності.'} summary={'Чи конфіденційні ваші сесії?'}></Dropdown>
             <Dropdown details={'Так, я пропоную онлайн-сесії через зручні для вас платформи, що забезпечує доступність терапії в будь-який час і з будь-якого місця.'} summary={'Чи можу я записатися на онлайн-терапію?'}></Dropdown>
             <Dropdown details={'Ви можете зв\'язатися зі мною за телефоном або електронною поштою, зазначеними на сайті. Я відповім на ваші запитання і допоможу призначити зручний час для сеансу.'} summary={'Як записатися на консультацію?'}></Dropdown>
+
+            <ContactForm />
         </>
     );
 };
